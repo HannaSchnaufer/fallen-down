@@ -28,6 +28,8 @@ header {
 header h1 {
   font-size: 36px;
   letter-spacing: 2px;
+  background-color: #625a34;
+  padding : 10px;
 }
 
 header nav a {
