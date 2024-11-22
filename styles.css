@@ -64,10 +64,11 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-decoration: none; /* Remove link underline */
   color: inherit; /* Inherit text color */
+  transition: transform 1s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-10px); /* Lift effect on hover */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow */
 }
 
